@@ -60,6 +60,7 @@ if __name__ == '__main__':
             return int(cases.replace('Number of Active Cases: ', '').strip())
 
         cases = args.dry or get_cases()
+        notify('Jisnet Covid Tracker', f'Successfully started at {cases} cases')
 
         while True:
             new_cases = get_cases()
