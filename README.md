@@ -1,4 +1,7 @@
 # JISNET Covid Tracker
+
+![Demo](demo.gif)
+
 This repo is a tracker for the number of confirmed COVID-19 cases in JIS. It scrapes the student [jisedu website](https://www.jisedu.or.id/student) using selenium and then creates a notification whenever new cases appear.
 
 ![Jisedu student website](jisnet-img.png)
